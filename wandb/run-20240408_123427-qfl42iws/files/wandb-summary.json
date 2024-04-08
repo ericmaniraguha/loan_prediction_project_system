@@ -1,0 +1,1 @@
+{"Best Training Score": 0.8187384044526901, "_timestamp": 1712572479.221472, "_runtime": 3.128108024597168, "_step": 2, "Test Accuracy": 0.7723577235772358, "Precision": 0.7592592592592593, "Recall": 0.9761904761904762, "Accuracy": 0.7723577235772358, "_wandb": {"runtime": 0}}

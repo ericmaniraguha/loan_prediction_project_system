@@ -1,0 +1,276 @@
+Precision: 0.7766990291262136
+Recall: 0.9523809523809523
+Accuracy: 0.7804878048780488
+X_train shape: (491, 10)
+y_train shape: (491,)
+X_test shape: (123, 10)
+y_test shape: (123,)
+Precision: 0.7766990291262136
+Recall: 0.9523809523809523
+Accuracy: 0.7804878048780488
+Precision: 0.7766990291262136
+Recall: 0.9523809523809523
+Accuracy: 0.7804878048780488
+Fitting 5 folds for each of 25 candidates, totalling 125 fits
+[CV 1/5] END ........C=0.1, gamma=1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ........C=0.1, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ........C=0.1, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ........C=0.1, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ........C=0.1, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ..........C=1, gamma=1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ..........C=1, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ..........C=1, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ..........C=1, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ..........C=1, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ........C=1, gamma=0.1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ........C=1, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ........C=1, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ........C=1, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ........C=1, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .......C=1, gamma=0.01, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .......C=1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 3/5] END .......C=1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 4/5] END .......C=1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .......C=1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ......C=1, gamma=0.001, kernel=rbf;, score=0.667 total time=   0.0s
+[CV 2/5] END ......C=1, gamma=0.001, kernel=rbf;, score=0.724 total time=   0.0s
+[CV 3/5] END ......C=1, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ......C=1, gamma=0.001, kernel=rbf;, score=0.673 total time=   0.0s
+[CV 5/5] END ......C=1, gamma=0.001, kernel=rbf;, score=0.673 total time=   0.0s
+[CV 1/5] END .....C=1, gamma=0.0001, kernel=rbf;, score=0.677 total time=   0.0s
+[CV 2/5] END .....C=1, gamma=0.0001, kernel=rbf;, score=0.663 total time=   0.0s
+[CV 3/5] END .....C=1, gamma=0.0001, kernel=rbf;, score=0.653 total time=   0.0s
+[CV 4/5] END .....C=1, gamma=0.0001, kernel=rbf;, score=0.612 total time=   0.0s
+[CV 5/5] END .....C=1, gamma=0.0001, kernel=rbf;, score=0.633 total time=   0.0s
+[CV 1/5] END .........C=10, gamma=1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .........C=10, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .........C=10, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .........C=10, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .........C=10, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .......C=10, gamma=0.1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .......C=10, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .......C=10, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .......C=10, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .......C=10, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ......C=10, gamma=0.01, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ......C=10, gamma=0.01, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ......C=10, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 4/5] END ......C=10, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ......C=10, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .....C=10, gamma=0.001, kernel=rbf;, score=0.667 total time=   0.0s
+[CV 2/5] END .....C=10, gamma=0.001, kernel=rbf;, score=0.714 total time=   0.0s
+[CV 3/5] END .....C=10, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .....C=10, gamma=0.001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .....C=10, gamma=0.001, kernel=rbf;, score=0.643 total time=   0.0s
+[CV 1/5] END ....C=10, gamma=0.0001, kernel=rbf;, score=0.646 total time=   0.0s
+[CV 2/5] END ....C=10, gamma=0.0001, kernel=rbf;, score=0.653 total time=   0.0s
+[CV 3/5] END ....C=10, gamma=0.0001, kernel=rbf;, score=0.653 total time=   0.0s
+[CV 4/5] END ....C=10, gamma=0.0001, kernel=rbf;, score=0.561 total time=   0.0s
+[CV 5/5] END ....C=10, gamma=0.0001, kernel=rbf;, score=0.592 total time=   0.0s
+[CV 1/5] END ........C=100, gamma=1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ........C=100, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ........C=100, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ........C=100, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ........C=100, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ......C=100, gamma=0.1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ......C=100, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ......C=100, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ......C=100, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ......C=100, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .....C=100, gamma=0.01, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .....C=100, gamma=0.01, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .....C=100, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 4/5] END .....C=100, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .....C=100, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ....C=100, gamma=0.001, kernel=rbf;, score=0.667 total time=   0.0s
+[CV 2/5] END ....C=100, gamma=0.001, kernel=rbf;, score=0.714 total time=   0.0s
+[CV 3/5] END ....C=100, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ....C=100, gamma=0.001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ....C=100, gamma=0.001, kernel=rbf;, score=0.643 total time=   0.0s
+[CV 1/5] END ...C=100, gamma=0.0001, kernel=rbf;, score=0.657 total time=   0.0s
+[CV 2/5] END ...C=100, gamma=0.0001, kernel=rbf;, score=0.673 total time=   0.0s
+[CV 3/5] END ...C=100, gamma=0.0001, kernel=rbf;, score=0.633 total time=   0.0s
+[CV 4/5] END ...C=100, gamma=0.0001, kernel=rbf;, score=0.592 total time=   0.0s
+[CV 5/5] END ...C=100, gamma=0.0001, kernel=rbf;, score=0.582 total time=   0.0s
+[CV 1/5] END .......C=1000, gamma=1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .......C=1000, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .......C=1000, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .......C=1000, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .......C=1000, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .....C=1000, gamma=0.1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .....C=1000, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .....C=1000, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .....C=1000, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .....C=1000, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ....C=1000, gamma=0.01, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ....C=1000, gamma=0.01, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ....C=1000, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 4/5] END ....C=1000, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ....C=1000, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ...C=1000, gamma=0.001, kernel=rbf;, score=0.667 total time=   0.0s
+[CV 2/5] END ...C=1000, gamma=0.001, kernel=rbf;, score=0.714 total time=   0.0s
+[CV 3/5] END ...C=1000, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ...C=1000, gamma=0.001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ...C=1000, gamma=0.001, kernel=rbf;, score=0.643 total time=   0.0s
+[CV 1/5] END ..C=1000, gamma=0.0001, kernel=rbf;, score=0.657 total time=   0.0s
+[CV 2/5] END ..C=1000, gamma=0.0001, kernel=rbf;, score=0.673 total time=   0.0s
+[CV 3/5] END ..C=1000, gamma=0.0001, kernel=rbf;, score=0.633 total time=   0.0s
+[CV 4/5] END ..C=1000, gamma=0.0001, kernel=rbf;, score=0.582 total time=   0.0s
+[CV 5/5] END ..C=1000, gamma=0.0001, kernel=rbf;, score=0.592 total time=   0.0s
+Best Parameters: {'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}
+Fitting 5 folds for each of 25 candidates, totalling 125 fits
+[CV 1/5] END ........C=0.1, gamma=1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ........C=0.1, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ........C=0.1, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ........C=0.1, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ........C=0.1, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ......C=0.1, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .....C=0.1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ....C=0.1, gamma=0.001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ...C=0.1, gamma=0.0001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ..........C=1, gamma=1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ..........C=1, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ..........C=1, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ..........C=1, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ..........C=1, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ........C=1, gamma=0.1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ........C=1, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ........C=1, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ........C=1, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ........C=1, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .......C=1, gamma=0.01, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .......C=1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 3/5] END .......C=1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 4/5] END .......C=1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .......C=1, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ......C=1, gamma=0.001, kernel=rbf;, score=0.667 total time=   0.0s
+[CV 2/5] END ......C=1, gamma=0.001, kernel=rbf;, score=0.724 total time=   0.0s
+[CV 3/5] END ......C=1, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ......C=1, gamma=0.001, kernel=rbf;, score=0.673 total time=   0.0s
+[CV 5/5] END ......C=1, gamma=0.001, kernel=rbf;, score=0.673 total time=   0.0s
+[CV 1/5] END .....C=1, gamma=0.0001, kernel=rbf;, score=0.677 total time=   0.0s
+[CV 2/5] END .....C=1, gamma=0.0001, kernel=rbf;, score=0.663 total time=   0.0s
+[CV 3/5] END .....C=1, gamma=0.0001, kernel=rbf;, score=0.653 total time=   0.0s
+[CV 4/5] END .....C=1, gamma=0.0001, kernel=rbf;, score=0.612 total time=   0.0s
+[CV 5/5] END .....C=1, gamma=0.0001, kernel=rbf;, score=0.633 total time=   0.0s
+[CV 1/5] END .........C=10, gamma=1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .........C=10, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .........C=10, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .........C=10, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .........C=10, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .......C=10, gamma=0.1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .......C=10, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .......C=10, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .......C=10, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .......C=10, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ......C=10, gamma=0.01, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ......C=10, gamma=0.01, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ......C=10, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 4/5] END ......C=10, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ......C=10, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .....C=10, gamma=0.001, kernel=rbf;, score=0.667 total time=   0.0s
+[CV 2/5] END .....C=10, gamma=0.001, kernel=rbf;, score=0.714 total time=   0.0s
+[CV 3/5] END .....C=10, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .....C=10, gamma=0.001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .....C=10, gamma=0.001, kernel=rbf;, score=0.643 total time=   0.0s
+[CV 1/5] END ....C=10, gamma=0.0001, kernel=rbf;, score=0.646 total time=   0.0s
+[CV 2/5] END ....C=10, gamma=0.0001, kernel=rbf;, score=0.653 total time=   0.0s
+[CV 3/5] END ....C=10, gamma=0.0001, kernel=rbf;, score=0.653 total time=   0.0s
+[CV 4/5] END ....C=10, gamma=0.0001, kernel=rbf;, score=0.561 total time=   0.0s
+[CV 5/5] END ....C=10, gamma=0.0001, kernel=rbf;, score=0.592 total time=   0.0s
+[CV 1/5] END ........C=100, gamma=1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ........C=100, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ........C=100, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ........C=100, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ........C=100, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ......C=100, gamma=0.1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ......C=100, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ......C=100, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ......C=100, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ......C=100, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .....C=100, gamma=0.01, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .....C=100, gamma=0.01, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .....C=100, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 4/5] END .....C=100, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .....C=100, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ....C=100, gamma=0.001, kernel=rbf;, score=0.667 total time=   0.0s
+[CV 2/5] END ....C=100, gamma=0.001, kernel=rbf;, score=0.714 total time=   0.0s
+[CV 3/5] END ....C=100, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ....C=100, gamma=0.001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ....C=100, gamma=0.001, kernel=rbf;, score=0.643 total time=   0.0s
+[CV 1/5] END ...C=100, gamma=0.0001, kernel=rbf;, score=0.657 total time=   0.0s
+[CV 2/5] END ...C=100, gamma=0.0001, kernel=rbf;, score=0.673 total time=   0.0s
+[CV 3/5] END ...C=100, gamma=0.0001, kernel=rbf;, score=0.633 total time=   0.0s
+[CV 4/5] END ...C=100, gamma=0.0001, kernel=rbf;, score=0.592 total time=   0.0s
+[CV 5/5] END ...C=100, gamma=0.0001, kernel=rbf;, score=0.582 total time=   0.0s
+[CV 1/5] END .......C=1000, gamma=1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .......C=1000, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .......C=1000, gamma=1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .......C=1000, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .......C=1000, gamma=1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END .....C=1000, gamma=0.1, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END .....C=1000, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END .....C=1000, gamma=0.1, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END .....C=1000, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END .....C=1000, gamma=0.1, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ....C=1000, gamma=0.01, kernel=rbf;, score=0.687 total time=   0.0s
+[CV 2/5] END ....C=1000, gamma=0.01, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 3/5] END ....C=1000, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 4/5] END ....C=1000, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ....C=1000, gamma=0.01, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 1/5] END ...C=1000, gamma=0.001, kernel=rbf;, score=0.667 total time=   0.0s
+[CV 2/5] END ...C=1000, gamma=0.001, kernel=rbf;, score=0.714 total time=   0.0s
+[CV 3/5] END ...C=1000, gamma=0.001, kernel=rbf;, score=0.694 total time=   0.0s
+[CV 4/5] END ...C=1000, gamma=0.001, kernel=rbf;, score=0.684 total time=   0.0s
+[CV 5/5] END ...C=1000, gamma=0.001, kernel=rbf;, score=0.643 total time=   0.0s
+[CV 1/5] END ..C=1000, gamma=0.0001, kernel=rbf;, score=0.657 total time=   0.0s
+[CV 2/5] END ..C=1000, gamma=0.0001, kernel=rbf;, score=0.673 total time=   0.0s
+[CV 3/5] END ..C=1000, gamma=0.0001, kernel=rbf;, score=0.633 total time=   0.0s
+[CV 4/5] END ..C=1000, gamma=0.0001, kernel=rbf;, score=0.582 total time=   0.0s
+[CV 5/5] END ..C=1000, gamma=0.0001, kernel=rbf;, score=0.592 total time=   0.0s
+Best Parameters: {'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}
+Precision: 0.6829268292682927
+Recall: 1.0
+Accuracy: 0.6829268292682927
+Precision: 0.7802197802197802
+Recall: 0.8452380952380952
+Accuracy: 0.7317073170731707
+Precision: 0.7592592592592593
+Recall: 0.9761904761904762
+Accuracy: 0.7723577235772358

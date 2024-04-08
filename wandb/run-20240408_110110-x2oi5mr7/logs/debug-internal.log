@@ -1,0 +1,885 @@
+2024-04-08 11:01:15,638 INFO    StreamThr :13988 [internal.py:wandb_internal():86] W&B internal server running at pid: 13988, started at: 2024-04-08 11:01:15.638699
+2024-04-08 11:01:15,638 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status
+2024-04-08 11:01:15,638 INFO    WriterThread:13988 [datastore.py:open_for_write():87] open: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\run-x2oi5mr7.wandb
+2024-04-08 11:01:15,638 DEBUG   SenderThread:13988 [sender.py:send():379] send: header
+2024-04-08 11:01:15,638 DEBUG   SenderThread:13988 [sender.py:send():379] send: run
+2024-04-08 11:01:16,620 INFO    SenderThread:13988 [dir_watcher.py:__init__():211] watching files in: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files
+2024-04-08 11:01:16,620 INFO    SenderThread:13988 [sender.py:_start_run_threads():1124] run started: x2oi5mr7 with start time 1712566874.893307
+2024-04-08 11:01:16,620 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: check_version
+2024-04-08 11:01:16,620 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: check_version
+2024-04-08 11:01:17,749 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: run_start
+2024-04-08 11:01:17,765 DEBUG   HandlerThread:13988 [system_info.py:__init__():26] System info init
+2024-04-08 11:01:17,765 DEBUG   HandlerThread:13988 [system_info.py:__init__():41] System info init done
+2024-04-08 11:01:17,765 INFO    HandlerThread:13988 [system_monitor.py:start():194] Starting system monitor
+2024-04-08 11:01:17,765 INFO    SystemMonitor:13988 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-08 11:01:17,765 INFO    HandlerThread:13988 [system_monitor.py:probe():214] Collecting system info
+2024-04-08 11:01:17,765 INFO    SystemMonitor:13988 [interfaces.py:start():190] Started cpu monitoring
+2024-04-08 11:01:17,765 INFO    SystemMonitor:13988 [interfaces.py:start():190] Started disk monitoring
+2024-04-08 11:01:17,765 INFO    SystemMonitor:13988 [interfaces.py:start():190] Started gpu monitoring
+2024-04-08 11:01:17,782 INFO    SystemMonitor:13988 [interfaces.py:start():190] Started memory monitoring
+2024-04-08 11:01:17,791 INFO    SystemMonitor:13988 [interfaces.py:start():190] Started network monitoring
+2024-04-08 11:01:18,854 DEBUG   HandlerThread:13988 [system_info.py:probe():150] Probing system
+2024-04-08 11:01:18,870 DEBUG   HandlerThread:13988 [system_info.py:_probe_git():135] Probing git
+2024-04-08 11:01:18,870 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:18,870 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:18,925 DEBUG   HandlerThread:13988 [system_info.py:_probe_git():143] Probing git done
+2024-04-08 11:01:18,925 DEBUG   HandlerThread:13988 [system_info.py:probe():198] Probing system done
+2024-04-08 11:01:18,925 DEBUG   HandlerThread:13988 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.9', 'heartbeatAt': '2024-04-08T09:01:18.854547', 'startedAt': '2024-04-08T09:01:10.077300', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/ericmaniraguha/loan_prediction_project_system.git', 'commit': '24761496cfd583468464d3809a09ea144207702f'}, 'email': 'ericmaniraguha@gmail.com', 'root': 'E:/Data Analysis/LoanPredictionSystemML', 'host': 'Eric-Admin', 'username': 'Eric-Admin', 'executable': 'C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe', 'cpu_count': 10, 'cpu_count_logical': 12, 'cpu_freq': {'current': 1700.0, 'min': 0.0, 'max': 1700.0}, 'cpu_freq_per_core': [{'current': 1700.0, 'min': 0.0, 'max': 1700.0}], 'disk': {'/': {'total': 117.29784774780273, 'used': 3.8661956787109375}}, 'gpu': 'NVIDIA GeForce MX570', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX570', 'memory_total': 2147483648}], 'memory': {'total': 15.641033172607422}}
+2024-04-08 11:01:18,925 INFO    HandlerThread:13988 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-08 11:01:18,925 INFO    HandlerThread:13988 [system_monitor.py:probe():227] Publishing system info
+2024-04-08 11:01:18,925 INFO    HandlerThread:13988 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-08 11:01:18,925 DEBUG   SenderThread:13988 [sender.py:send():379] send: files
+2024-04-08 11:01:18,936 INFO    SenderThread:13988 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-08 11:01:18,986 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-08 11:01:18,986 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: python_packages
+2024-04-08 11:01:18,986 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:01:18,986 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:01:18,986 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:01:19,002 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 11:01:19,650 INFO    Thread-87 :13988 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\requirements.txt
+2024-04-08 11:01:19,650 INFO    Thread-87 :13988 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\wandb-metadata.json
+2024-04-08 11:01:19,730 DEBUG   SenderThread:13988 [sender.py:send():379] send: telemetry
+2024-04-08 11:01:19,730 DEBUG   SenderThread:13988 [sender.py:send():379] send: history
+2024-04-08 11:01:19,730 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 11:01:19,730 INFO    SenderThread:13988 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 11:01:20,611 INFO    wandb-upload_0:13988 [upload_job.py:push():131] Uploaded file C:\Users\HP\AppData\Local\Temp\tmpbqrzxv9dwandb\70rog252-wandb-metadata.json
+2024-04-08 11:01:20,651 INFO    Thread-87 :13988 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\wandb-summary.json
+2024-04-08 11:01:20,747 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:01:21,376 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:21,376 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:23,885 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:23,885 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:25,765 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:01:26,380 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:26,380 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:28,874 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:28,874 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:30,820 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:01:31,360 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:31,360 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:33,852 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:33,852 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:34,003 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:01:34,004 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:01:34,005 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:01:36,360 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:36,360 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:36,418 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:01:38,858 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:38,858 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:41,353 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:41,360 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:41,471 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:01:43,849 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:43,849 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:46,354 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:46,354 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:46,519 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:01:47,872 INFO    Thread-87 :13988 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\config.yaml
+2024-04-08 11:01:48,842 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:48,842 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:49,016 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:01:49,016 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:01:49,016 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:01:51,359 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:51,360 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:52,385 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:01:53,850 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:53,850 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:56,364 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:01:56,375 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:56,376 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:57,411 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:01:58,883 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:01:58,883 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:01,386 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:01,387 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:02,453 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:03,865 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:03,865 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:04,015 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:02:04,016 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:02:04,024 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:02:06,369 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:06,369 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:08,415 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:08,883 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:08,883 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:11,388 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:11,388 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:13,452 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:13,876 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:13,876 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:16,376 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:16,376 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:17,794 DEBUG   SystemMonitor:13988 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-08 11:02:17,794 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:02:18,806 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:18,874 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:18,874 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:19,016 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:02:19,016 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:02:19,031 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:02:21,380 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:21,381 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:23,867 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:23,867 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:24,513 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:26,373 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:26,373 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:28,876 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:28,876 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:29,565 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:31,371 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:31,371 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:33,893 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:02:33,911 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:33,911 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:34,028 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:02:34,028 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:02:34,043 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:02:36,244 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:36,420 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:36,420 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:38,938 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:38,938 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:41,293 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:41,434 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:41,434 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:43,939 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:43,940 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:46,334 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:46,430 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:46,430 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:47,794 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:02:48,941 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:48,941 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:49,042 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:02:49,045 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:02:49,056 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:02:51,433 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:51,433 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:51,433 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:53,925 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:53,925 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:56,427 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:56,427 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:56,473 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:02:58,910 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:02:58,910 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:01,399 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:01,399 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:01,525 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:03,897 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:03,912 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:04,054 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:03:04,054 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:03:04,069 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:03:06,419 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:06,419 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:07,473 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:08,914 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:08,914 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:11,436 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:03:11,442 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:11,442 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:12,491 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:13,930 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:13,930 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:16,433 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:16,433 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:17,518 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:17,803 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:03:18,950 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:18,950 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:19,065 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:03:19,065 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:03:19,081 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:03:21,465 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:21,466 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:22,525 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:23,961 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:23,961 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:26,460 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:26,460 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:27,568 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:28,971 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:28,971 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:31,480 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:31,480 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:32,603 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:33,979 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:33,979 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:34,074 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:03:34,075 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:03:34,089 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:03:36,477 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:36,477 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:38,462 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:38,969 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:38,969 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:41,467 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:41,467 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:43,497 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:43,967 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:43,967 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:46,461 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:46,461 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:47,809 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:03:48,822 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:49,010 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:03:49,041 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:49,041 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:49,120 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:03:49,120 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:03:49,120 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:03:51,538 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:51,538 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:54,045 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:54,045 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:54,531 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:03:56,560 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:56,561 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:59,068 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:59,068 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:03:59,586 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:01,557 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:01,557 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:04,069 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:04,069 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:04,112 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:04:04,129 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:04:04,129 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:04:05,457 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:06,575 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:06,575 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:09,085 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:09,085 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:10,501 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:11,588 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:11,588 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:14,076 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:14,076 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:15,542 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:16,578 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:16,578 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:17,820 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:04:19,093 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:19,093 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:19,124 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:04:19,155 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:04:19,155 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:04:20,549 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:21,594 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:21,594 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:24,090 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:24,090 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:25,587 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:26,660 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:04:26,676 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:29,183 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:29,183 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:30,626 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:31,680 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:31,680 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:34,137 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:04:34,153 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:04:34,153 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:04:34,184 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:34,184 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:36,573 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:36,678 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:36,678 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:39,172 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:39,172 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:41,615 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:41,683 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:41,684 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:44,199 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:44,199 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:46,646 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:46,703 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:46,703 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:47,824 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:04:49,140 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:04:49,155 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:04:49,156 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:04:49,214 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:49,214 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:51,714 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:51,714 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:52,575 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:54,219 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:54,219 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:56,714 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:56,714 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:57,602 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:04:59,217 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:04:59,217 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:01,729 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:01,729 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:02,632 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:04,148 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:05:04,164 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:05:04,164 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:05:04,294 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:05:06,833 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:06,833 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:08,575 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:09,336 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:09,336 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:11,840 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:11,841 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:13,626 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:14,353 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:14,354 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:16,902 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:16,902 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:17,830 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:05:18,841 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:19,157 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:05:19,172 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:05:19,172 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:05:19,424 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:19,424 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:21,941 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:21,941 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:24,441 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:24,441 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:24,575 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:26,957 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:26,957 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:29,454 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:29,454 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:29,615 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:31,938 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:31,938 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:34,166 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:05:34,182 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:05:34,183 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:05:34,442 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:34,442 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:34,637 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:36,931 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:36,931 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:39,426 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:39,426 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:39,706 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:41,986 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:41,986 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:44,479 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:44,479 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:44,732 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:46,981 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:46,981 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:47,838 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:05:49,168 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:05:49,200 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:05:49,201 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:05:49,472 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:49,472 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:50,650 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:51,967 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:51,967 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:54,459 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:54,459 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:55,696 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:05:56,959 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:56,959 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:59,461 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:05:59,462 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:00,710 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:01,961 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:01,961 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:04,169 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:06:04,216 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:06:04,216 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:06:04,449 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:04,449 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:06,578 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:06,958 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:06,958 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:09,457 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:09,458 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:11,599 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:11,954 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:11,954 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:14,452 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:14,452 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:16,633 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:16,949 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:16,949 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:17,847 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:06:19,173 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:06:19,221 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:06:19,221 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:06:19,473 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:06:19,473 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:19,473 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:21,982 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:21,982 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:22,595 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:24,480 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:24,480 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:26,976 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:26,976 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:27,641 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:29,472 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:29,472 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:31,973 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:31,973 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:32,692 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:34,179 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:06:34,227 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:06:34,227 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:06:34,462 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:34,462 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:36,954 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:36,954 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:38,607 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:39,456 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:39,456 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:41,953 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:41,954 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:43,653 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:44,440 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:44,445 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:46,944 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:46,944 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:47,849 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:06:48,864 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:49,181 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:06:49,251 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:06:49,251 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:06:49,451 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:49,452 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:51,937 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:51,937 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:54,449 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:54,449 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:54,716 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:06:56,972 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:06:56,979 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:56,979 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:59,483 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:59,483 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:06:59,750 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:01,982 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:01,982 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:04,184 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:07:04,263 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:07:04,263 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:07:04,488 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:04,488 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:05,714 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:06,982 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:06,982 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:09,489 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:09,489 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:10,758 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:11,994 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:11,994 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:14,481 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:14,481 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:15,798 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:16,997 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:16,997 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:17,852 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:07:19,188 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:07:19,284 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:07:19,284 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:07:19,492 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:19,492 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:21,597 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:22,004 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:22,004 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:24,489 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:24,489 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:26,657 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:26,988 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:26,988 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:29,492 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:29,492 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:31,711 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:31,979 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:31,979 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:34,200 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:07:34,294 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:07:34,294 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:07:34,515 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:07:34,515 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:34,515 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:36,734 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:37,001 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:37,001 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:39,504 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:39,504 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:41,773 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:41,995 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:41,995 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:44,501 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:44,501 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:46,807 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:47,005 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:47,006 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:47,855 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:07:49,201 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:07:49,317 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:07:49,317 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:07:49,489 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:49,490 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:51,990 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:51,990 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:52,670 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:54,481 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:54,481 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:56,974 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:56,974 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:57,759 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:07:59,484 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:07:59,484 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:01,978 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:01,978 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:02,787 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:04,216 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:08:04,335 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:08:04,336 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:08:04,478 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:04,478 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:06,963 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:06,963 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:07,834 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:09,462 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:09,462 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:11,968 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:08:11,984 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:11,984 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:12,869 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:14,481 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:14,481 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:16,982 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:16,982 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:17,866 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:08:18,881 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:19,230 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:08:19,341 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:08:19,341 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:08:19,488 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:19,488 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:21,971 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:21,971 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:24,482 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:24,482 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:24,719 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:26,982 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:26,982 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:29,474 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:29,474 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:29,775 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:31,967 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:31,967 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:34,234 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:08:34,345 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:08:34,345 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:08:34,469 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:34,469 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:35,678 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:36,957 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:36,957 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:39,448 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:39,448 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:40,717 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:41,952 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:41,952 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:44,461 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:44,461 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:45,780 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:46,968 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:46,968 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:47,875 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:08:49,243 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:08:49,361 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:08:49,361 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:08:49,502 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:08:49,509 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:49,509 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:51,723 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:52,012 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:52,012 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:54,504 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:54,504 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:56,765 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:08:57,009 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:57,009 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:59,495 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:08:59,495 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:01,802 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:02,004 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:02,004 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:04,244 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:09:04,394 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:09:04,394 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:09:04,514 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:04,514 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:06,812 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:07,003 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:07,003 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:09,522 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:09,522 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:11,853 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:12,007 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:12,007 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:14,510 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:14,511 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:16,880 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:17,007 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:17,008 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:17,882 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:09:19,247 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:09:19,406 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:09:19,407 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:09:19,508 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:19,508 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:22,002 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:22,002 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:22,792 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:24,502 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:24,502 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:27,052 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:09:27,840 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:29,578 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:29,578 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:32,068 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:32,068 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:32,904 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:34,248 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:09:34,413 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:09:34,413 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:09:34,578 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:34,578 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:37,082 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:37,082 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:38,778 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:39,579 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:39,579 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:42,087 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:42,088 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:43,811 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:44,579 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:44,580 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:47,071 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:47,071 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:47,887 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:09:48,900 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:49,263 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:09:49,433 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:09:49,434 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:09:49,571 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:49,571 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:52,081 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:52,081 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:54,568 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:54,569 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:54,860 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:09:57,070 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:57,070 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:59,550 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:59,550 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:09:59,895 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:02,057 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:02,057 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:04,274 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:10:04,431 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:10:04,431 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:10:05,850 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:07,152 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:07,152 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:09,652 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:09,652 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:10,885 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:12,153 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:12,153 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:14,649 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:14,649 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:15,907 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:17,165 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:17,166 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:17,890 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:10:19,287 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:10:19,454 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:10:19,454 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:10:19,683 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:19,684 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:21,851 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:22,201 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:22,202 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:24,718 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:24,718 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:26,881 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:27,213 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:27,213 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:29,728 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:29,728 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:31,917 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:32,237 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:32,237 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:34,303 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:10:34,460 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:10:34,460 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:10:34,747 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:34,748 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:37,245 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:37,245 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:37,888 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:39,732 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:39,732 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:42,271 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:42,271 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:42,931 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:44,773 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:44,773 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:47,272 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:47,273 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:47,893 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:10:48,920 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:49,310 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:10:49,489 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 11:10:49,489 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 11:10:49,758 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:49,758 ERROR   gpu       :13988 [interfaces.py:monitor():144] Failed to sample metric: No data
+2024-04-08 11:10:50,761 DEBUG   SenderThread:13988 [sender.py:send():379] send: telemetry
+2024-04-08 11:10:50,765 DEBUG   SenderThread:13988 [sender.py:send():379] send: telemetry
+2024-04-08 11:10:50,773 DEBUG   SenderThread:13988 [sender.py:send():379] send: exit
+2024-04-08 11:10:50,773 INFO    SenderThread:13988 [sender.py:send_exit():586] handling exit code: 0
+2024-04-08 11:10:50,773 INFO    SenderThread:13988 [sender.py:send_exit():588] handling runtime: 573
+2024-04-08 11:10:50,774 INFO    SenderThread:13988 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 11:10:50,774 INFO    SenderThread:13988 [sender.py:send_exit():594] send defer
+2024-04-08 11:10:50,774 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:50,774 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-08 11:10:50,774 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:50,774 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-08 11:10:50,774 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 1
+2024-04-08 11:10:50,774 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:50,774 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-08 11:10:50,774 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:50,774 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-08 11:10:50,774 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 2
+2024-04-08 11:10:50,774 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:50,774 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-08 11:10:50,774 INFO    HandlerThread:13988 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-08 11:10:50,774 DEBUG   SystemMonitor:13988 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-08 11:10:50,774 DEBUG   SystemMonitor:13988 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-08 11:10:50,774 INFO    HandlerThread:13988 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-08 11:10:50,774 INFO    HandlerThread:13988 [interfaces.py:finish():202] Joined disk monitor
+2024-04-08 11:10:51,289 ERROR   gpu       :13988 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-08 11:10:51,289 INFO    HandlerThread:13988 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-08 11:10:51,290 INFO    HandlerThread:13988 [interfaces.py:finish():202] Joined memory monitor
+2024-04-08 11:10:51,290 INFO    HandlerThread:13988 [interfaces.py:finish():202] Joined network monitor
+2024-04-08 11:10:51,290 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:51,290 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-08 11:10:51,290 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 3
+2024-04-08 11:10:51,290 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:51,291 DEBUG   SenderThread:13988 [sender.py:send():379] send: stats
+2024-04-08 11:10:51,291 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-08 11:10:51,291 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:51,291 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-08 11:10:51,291 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 4
+2024-04-08 11:10:51,291 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:51,291 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-08 11:10:51,292 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:51,292 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-08 11:10:51,292 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 5
+2024-04-08 11:10:51,292 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:51,292 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-08 11:10:51,292 DEBUG   SenderThread:13988 [sender.py:send():379] send: summary
+2024-04-08 11:10:51,293 INFO    SenderThread:13988 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 11:10:51,293 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:51,293 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-08 11:10:51,293 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 6
+2024-04-08 11:10:51,293 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:51,293 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-08 11:10:51,293 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:51,293 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-08 11:10:51,296 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 11:10:51,390 INFO    Thread-87 :13988 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\wandb-summary.json
+2024-04-08 11:10:51,675 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 7
+2024-04-08 11:10:51,675 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:51,675 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-08 11:10:51,675 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:51,675 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-08 11:10:51,675 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 8
+2024-04-08 11:10:51,675 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:51,675 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-08 11:10:51,675 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:51,675 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-08 11:10:51,675 INFO    SenderThread:13988 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-08 11:10:51,675 INFO    SenderThread:13988 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-08 11:10:51,675 INFO    SenderThread:13988 [job_builder.py:_get_program_relpath():473] run is notebook based run
+2024-04-08 11:10:51,675 WARNING SenderThread:13988 [job_builder.py:_log_if_verbose():210] Source type is set to 'repo' but some required information is missing from the environment. A job will not be created from this run. See https://docs.wandb.ai/guides/launch/create-job
+2024-04-08 11:10:51,675 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 9
+2024-04-08 11:10:51,675 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:51,675 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-08 11:10:51,675 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:51,675 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-08 11:10:51,675 INFO    SenderThread:13988 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-08 11:10:51,773 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 11:10:52,408 INFO    SenderThread:13988 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\config.yaml
+2024-04-08 11:10:52,408 INFO    SenderThread:13988 [dir_watcher.py:finish():388] scan: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files
+2024-04-08 11:10:52,408 INFO    SenderThread:13988 [dir_watcher.py:finish():402] scan save: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\config.yaml config.yaml
+2024-04-08 11:10:52,408 INFO    SenderThread:13988 [dir_watcher.py:finish():402] scan save: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\requirements.txt requirements.txt
+2024-04-08 11:10:52,408 INFO    SenderThread:13988 [dir_watcher.py:finish():402] scan save: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\wandb-metadata.json wandb-metadata.json
+2024-04-08 11:10:52,408 INFO    SenderThread:13988 [dir_watcher.py:finish():402] scan save: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\wandb-summary.json wandb-summary.json
+2024-04-08 11:10:52,408 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 10
+2024-04-08 11:10:52,408 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 11:10:52,408 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:52,408 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-08 11:10:52,408 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:52,408 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-08 11:10:52,408 INFO    SenderThread:13988 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-08 11:10:52,788 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 11:10:52,788 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 11:10:53,662 INFO    wandb-upload_0:13988 [upload_job.py:push():131] Uploaded file e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\config.yaml
+2024-04-08 11:10:53,789 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 11:10:53,789 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 11:10:53,942 INFO    wandb-upload_1:13988 [upload_job.py:push():131] Uploaded file e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\requirements.txt
+2024-04-08 11:10:54,354 INFO    wandb-upload_2:13988 [upload_job.py:push():131] Uploaded file e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\files\wandb-summary.json
+2024-04-08 11:10:54,570 INFO    Thread-86 (_thread_body):13988 [sender.py:transition_state():614] send defer: 11
+2024-04-08 11:10:54,570 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:54,570 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-08 11:10:54,571 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:54,571 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-08 11:10:54,571 INFO    SenderThread:13988 [file_pusher.py:join():178] waiting for file pusher
+2024-04-08 11:10:54,571 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 12
+2024-04-08 11:10:54,572 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:54,572 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-08 11:10:54,572 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:54,572 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-08 11:10:54,572 INFO    SenderThread:13988 [file_stream.py:finish():614] file stream finish called
+2024-04-08 11:10:54,804 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 11:10:55,487 INFO    SenderThread:13988 [file_stream.py:finish():618] file stream finish is done
+2024-04-08 11:10:55,487 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 13
+2024-04-08 11:10:55,487 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 11:10:55,487 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:55,487 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-08 11:10:55,487 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:55,487 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-08 11:10:55,487 INFO    SenderThread:13988 [sender.py:transition_state():614] send defer: 14
+2024-04-08 11:10:55,487 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 11:10:55,487 INFO    HandlerThread:13988 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-08 11:10:55,487 DEBUG   SenderThread:13988 [sender.py:send():379] send: final
+2024-04-08 11:10:55,487 DEBUG   SenderThread:13988 [sender.py:send():379] send: footer
+2024-04-08 11:10:55,487 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: defer
+2024-04-08 11:10:55,487 INFO    SenderThread:13988 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-08 11:10:55,501 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 11:10:55,502 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 11:10:55,503 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 11:10:55,503 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: server_info
+2024-04-08 11:10:55,503 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-08 11:10:55,503 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-08 11:10:55,503 DEBUG   SenderThread:13988 [sender.py:send_request():406] send_request: server_info
+2024-04-08 11:10:55,841 DEBUG   HandlerThread:13988 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-08 11:10:55,842 INFO    HandlerThread:13988 [handler.py:finish():866] shutting down handler
+2024-04-08 11:10:56,516 INFO    WriterThread:13988 [datastore.py:close():296] close: e:\Data Analysis\LoanPredictionSystemML\wandb\run-20240408_110110-x2oi5mr7\run-x2oi5mr7.wandb
+2024-04-08 11:10:56,856 INFO    SenderThread:13988 [sender.py:finish():1546] shutting down sender
+2024-04-08 11:10:56,856 INFO    SenderThread:13988 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-08 11:10:56,856 INFO    SenderThread:13988 [file_pusher.py:join():178] waiting for file pusher
