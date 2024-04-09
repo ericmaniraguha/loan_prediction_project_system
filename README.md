@@ -31,8 +31,10 @@ The dataset used in this project is sourced from Kaggle. You can find the datase
 2. **Installation**: Specify any dependencies or requirements needed to run the project.
 3. **Usage**: Provide instructions on how to use the system, including data preparation, model training, and prediction.
 4. **File Descriptions**: Describe the contents of each file in the project repository.
-5. **Credits**: Acknowledge any data sources, libraries, or tutorials used in the project.
-6. **License**: Specify the license under which the project is distributed.
+5. **Data Source**: Mention the source of the dataset used in the project.
+   - Data source: [Loan Data Set](https://www.kaggle.com/datasets/burak3ergun/loan-data-set)
+6. **Credits**: Acknowledge any data sources, libraries, or tutorials used in the project.
+7. **License**: Specify the license under which the project is distributed.
 
 ## Conclusion
 
