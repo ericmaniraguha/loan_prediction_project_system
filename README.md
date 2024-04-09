@@ -37,15 +37,15 @@ The dataset used in this project is sourced from Kaggle. You can find the datase
 ## Screen shoot
 
 1. **Input Values - Positive prediction**:
-   ![alt text](image-2.png)
+   ![alt text](./static/image-1.png)
 2. **Result with prediction (positive)**:
-   ![alt text](image-3.png)
+   ![alt text](./static/image-3.png)
 
 3. **Input Values - Negative Prediction**:
-   ![alt text](image-1.png)
+   ![alt text](./static/image-1.png)
 
 4. **Result No prediction - Negative Prediction**:
-   ![alt text](image.png)
+   ![alt text](./static/image.png)
 
 ## Conclusion
 
