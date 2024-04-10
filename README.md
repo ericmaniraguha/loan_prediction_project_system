@@ -36,6 +36,19 @@ The dataset used in this project is sourced from Kaggle. You can find the datase
 6. **Credits**: Acknowledge any data sources, libraries, or tutorials used in the project.
 7. **License**: Specify the license under which the project is distributed.
 
+## Screen shoot
+
+1. **Input Values - Positive prediction**:
+   ![alt text](./static/image-1.png)
+2. **Result with prediction (positive)**:
+   ![alt text](./static/image-3.png)
+
+3. **Input Values - Negative Prediction**:
+   ![alt text](./static/image-1.png)
+
+4. **Result No prediction - Negative Prediction**:
+   ![alt text](./static/image.png)
+
 ## Conclusion
 
 The Loan Prediction System presented in this project provides a robust framework for automating loan approval decisions. By leveraging machine learning algorithms, it offers a data-driven approach to enhance the efficiency and accuracy of loan processing operations.

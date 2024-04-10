@@ -1,0 +1,1 @@
+{"Precision": 0.7802197802197802, "Recall": 0.8452380952380952, "Accuracy": 0.7317073170731707, "_timestamp": 1712727829.720064, "_runtime": 2256.00723695755, "_step": 4, "Best Parameters": {"C": 0.1, "gamma": 1, "kernel": "rbf"}, "Best Score": 0.6883941455370026, "_wandb": {"runtime": 35}}
