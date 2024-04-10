@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.9",
+    "heartbeatAt": "2024-04-10T05:44:25.406522",
+    "startedAt": "2024-04-10T05:44:13.660395",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/ericmaniraguha/loan_prediction_project_system.git",
+        "commit": "a2513a8bb557ad4f1e8bc6e7d5ca375eb6f150f8"
+    },
+    "email": "ericmaniraguha@gmail.com",
+    "root": "E:/Data Analysis/LoanPredictionSystemML",
+    "host": "Eric-Admin",
+    "username": "Eric-Admin",
+    "executable": "C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+    "cpu_count": 10,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 1700.0,
+        "min": 0.0,
+        "max": 1700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1700.0,
+            "min": 0.0,
+            "max": 1700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 117.29784774780273,
+            "used": 4.465244293212891
+        }
+    },
+    "gpu": "NVIDIA GeForce MX570",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX570",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 15.641033172607422
+    }
+}
